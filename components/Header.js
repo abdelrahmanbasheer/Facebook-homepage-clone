@@ -6,6 +6,7 @@ ChevronDownIcon,
 HomeIcon,
 UserGroupIcon,
 ViewGridIcon,
+EmojiHappyIcon,
 } from "@heroicons/react/solid"
 import {
 FlagIcon,
@@ -39,7 +40,7 @@ src="https://links.papareact.com/5me"
           </div>
         </div>
       <div className="flex items-center sm:space-x-2 justify-end">
-        {/* <Image></Image> */}
+       <EmojiHappyIcon className="icon"></EmojiHappyIcon>
         <p className="font-semibold pr-3 whitespace-nowrap capitalize">the user name</p>
         <ViewGridIcon className="icon"></ViewGridIcon>
         <ChatIcon className="icon"></ChatIcon>
