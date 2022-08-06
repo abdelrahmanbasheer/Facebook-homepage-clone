@@ -39,7 +39,7 @@ const Widgets = () => {
     <div className='flex space-x-2'>
         <VideoCameraIcon className='h-6'></VideoCameraIcon>
         <SearchIcon className='h-6'></SearchIcon>
-        <VideoCameraIcon className='h-6'></VideoCameraIcon>
+        <DotsHorizontalIcon className='h-6'></DotsHorizontalIcon>
     </div>
 </div>
 {contacts.map(contact=>(
