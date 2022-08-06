@@ -16,7 +16,7 @@ const InputBox = () => {
             message:inputRef.current.value,
             name: "the username",
             email:"the user's email",
-            image:"https://links.papareact.com/kxk  ",
+            image:"https://links.papareact.com/kxk",
             timestamp: firebase.firestore.FieldValue.serverTimestamp(),
         }).then(doc=>{
             if(imageToPost){

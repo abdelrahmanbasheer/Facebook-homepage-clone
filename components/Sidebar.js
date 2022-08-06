@@ -16,7 +16,7 @@ const Sidebar = () => {
 
   return (
     <div className="p-2 mt-5 max-w-{600px} xl:min-w-{300px}">
-      <SidebarRow Icon={EmojiHappyIcon}></SidebarRow>
+      <SidebarRow Icon={EmojiHappyIcon} title="The UserName"></SidebarRow>
       <SidebarRow Icon={UsersIcon} title="Friends"></SidebarRow>
       <SidebarRow Icon={UserGroupIcon} title="Groups"></SidebarRow>
       <SidebarRow Icon={ShoppingBagIcon} title="Marketplace"></SidebarRow>

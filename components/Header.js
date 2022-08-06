@@ -41,7 +41,7 @@ src="https://links.papareact.com/5me"
         </div>
       <div className="flex items-center sm:space-x-2 justify-end">
        <EmojiHappyIcon className="icon"></EmojiHappyIcon>
-        <p className="font-semibold pr-3 whitespace-nowrap capitalize">the user name</p>
+        <p className="font-semibold pr-3 whitespace-nowrap capitalize">the userName</p>
         <ViewGridIcon className="icon"></ViewGridIcon>
         <ChatIcon className="icon"></ChatIcon>
         <BellIcon className="icon"></BellIcon>
